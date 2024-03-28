@@ -1,0 +1,177 @@
+(footprint "AntennaConnector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032028 -2.40877 0)
+		(layer "F.SilkS")
+		(uuid "584d4491-8b26-48fc-87b6-49a0d37bf6c4")
+		(effects
+			(font
+				(size 0.640629 0.640629)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AntennaConnector"
+		(at 2.882104 2.848841 0)
+		(layer "F.Fab")
+		(uuid "fceb307f-9b78-4bd2-baab-2fb6ee788249")
+		(effects
+			(font
+				(size 0.64118 0.64118)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0856308-00b4-45b4-9b49-09c5daef569b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10b114d7-5b8e-4937-91e9-8bad954f0181")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc31edf4-5e80-43bc-b3f3-62990e2bd134")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61ed8451-285e-4db5-b3e4-48921a17c645")
+	)
+	(fp_line
+		(start -2.25 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35c369cc-bf04-47c1-ab9a-976a274c787f")
+	)
+	(fp_line
+		(start -2.25 2.28)
+		(end -2.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "166510c3-214e-46c4-a92b-43d60d1ad20a")
+	)
+	(fp_line
+		(start 2.25 -1.75)
+		(end 2.25 2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27b2ac1b-a31f-4fdf-8daf-99439a110880")
+	)
+	(fp_line
+		(start 2.25 2.28)
+		(end -2.25 2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d99981f0-7b1b-4a2d-8651-94e0d48da6ad")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab614e82-e4cb-4ab1-b0f1-c9cb136f5b12")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfe84f54-e2b8-4539-baf0-f44771aa7fad")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68f62beb-f498-4b51-83d7-ed8259da2983")
+	)
+	(pad "1" smd rect
+		(at 0 1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b8ffc5e9-b892-43e3-91ad-16ac4153786e")
+	)
+	(pad "2" smd rect
+		(at -1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "65a70625-4e9f-41ab-ab65-7cf1c853ee05")
+	)
+	(pad "3" smd rect
+		(at 1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f3875f7f-9a42-4932-8698-c222148c8b5e")
+	)
+	(model "${KIPRJMOD}/components/Antenna_Connector/1909763-1.step"
+		(offset
+			(xyz 0 0 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Weather_Station_Receiver")(type "KiCad")(uri "${KIPRJMOD}/libraries/Weather_Station_Receiver.pretty")(options "")(descr ""))
+)
