@@ -2775,6 +2775,12 @@
 		(uuid "b48a16e1-3a9a-4d68-b570-2834cc6689ea")
 	)
 	(junction
+		(at 73.66 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b94982a9-fc56-41eb-990c-e127b88dadc0")
+	)
+	(junction
 		(at 175.26 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3334,6 +3340,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 154.94) (xy 80.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b1d240-4516-47c8-9c74-469b2200424c")
+	)
+	(wire
+		(pts
 			(xy 167.64 134.62) (xy 175.26 134.62)
 		)
 		(stroke
@@ -3741,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "f23996b1-efbf-4a9a-a965-5f6bd741e0d0")
+	)
+	(wire
+		(pts
+			(xy 80.01 146.05) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2dffc1-2833-4b1c-9643-050ab1470231")
 	)
 	(wire
 		(pts
@@ -4424,6 +4450,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 80.01 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de23a92-f019-44fa-8a7d-a92999941bae")
+		(property "Reference" "C4"
+			(at 83.82 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 83.82 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 80.9752 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34c901c3-c9c5-4cc5-b51e-a0464083ba72")
+		)
+		(pin "2"
+			(uuid "e3b3bc16-d58b-4e31-b194-12c36a8c3307")
+		)
+		(instances
+			(project "weather-station-receiver"
+				(path "/01cefa3a-c55f-45c5-8efc-28dc63eb7a4f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 93.98 0)
 		(unit 1)
@@ -5013,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Weather_Station_Receiver:Pico SMD Headers"
+		(property "Footprint" "Weather_Station_Receiver:Pico_SMD_Headers"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -6366,6 +6462,72 @@
 			(project "weather-station-receiver"
 				(path "/01cefa3a-c55f-45c5-8efc-28dc63eb7a4f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 80.01 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e26123fb-2d26-48d1-be62-fe16c5c57dbd")
+		(property "Reference" "#PWR020"
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be1b8912-8320-4576-83d5-bc3438b090cd")
+		)
+		(instances
+			(project "weather-station-receiver"
+				(path "/01cefa3a-c55f-45c5-8efc-28dc63eb7a4f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
