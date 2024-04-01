@@ -493,11 +493,15 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "VCC"
+        "pattern": "+3.3V"
       },
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VOUT"
       }
     ]
   },
@@ -566,11 +570,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -617,6 +657,18 @@
     [
       "8f1f45aa-e764-4c95-a223-c466cf9a95bf",
       "Root"
+    ],
+    [
+      "f97a550c-f082-4b63-a8c6-81bc13221c5b",
+      "RFM69 Radio"
+    ],
+    [
+      "7a04e3d1-638a-4686-bfce-e4e7db2cefc8",
+      "Sensors"
+    ],
+    [
+      "42d4f7d6-4f97-4f29-a0cd-bf4a015f7c0a",
+      "Battery Charger"
     ]
   ],
   "text_variables": {}
