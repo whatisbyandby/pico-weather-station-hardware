@@ -179,7 +179,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -501,7 +503,11 @@
       },
       {
         "netclass": "Power",
-        "pattern": "VOUT"
+        "pattern": "Load+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Load-"
       }
     ]
   },
