@@ -521,7 +521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05bcb241-0660-4fc5-9ae0-27ae91444c4d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 113.03 96.52 0)
 			(effects
 				(font
@@ -571,7 +571,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/42d4f7d6-4f97-4f29-a0cd-bf4a015f7c0a"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
