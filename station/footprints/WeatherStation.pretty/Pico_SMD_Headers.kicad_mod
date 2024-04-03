@@ -1042,7 +1042,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b0c70ac4-267e-4d32-bb2a-7bd84d1159ca")
 	)
-	(model "${KIPRJMOD}/components/SMD_Headers_Male/Pico_SMD_MaleHeaders.step"
+	(model "C:/Users/whati/Documents/pico-weather-station-hardware/receiver/hardware/components/SMD_Headers_Male/Pico_SMD_MaleHeaders.step"
 		(offset
 			(xyz -4 1.2 2.4)
 		)

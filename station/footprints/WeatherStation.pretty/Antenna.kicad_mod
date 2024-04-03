@@ -163,4 +163,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "83356382-32d8-498d-8689-e5482c221d40")
 	)
+	(model "C:/Users/whati/Documents/pico-weather-station-hardware/receiver/hardware/components/Antenna_Connector/1909763-1.step"
+		(offset
+			(xyz 0 0 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

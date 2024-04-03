@@ -2358,6 +2358,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 146.05) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf8a49c-595a-49e4-86c0-f322f743363b")
+	)
+	(wire
+		(pts
 			(xy 144.78 95.25) (xy 149.86 95.25)
 		)
 		(stroke
@@ -2385,6 +2395,16 @@
 			(type default)
 		)
 		(uuid "1510bd8f-dae3-4147-954e-2b21f3e69b4e")
+	)
+	(wire
+		(pts
+			(xy 114.3 151.13) (xy 114.3 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15819fc9-8ba2-4b79-8736-9484e373351a")
 	)
 	(wire
 		(pts
@@ -2528,6 +2548,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 148.59) (xy 128.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cda560f-89ad-4fb1-b7df-bce0661818fd")
+	)
+	(wire
+		(pts
 			(xy 44.45 33.02) (xy 52.07 33.02)
 		)
 		(stroke
@@ -2618,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 151.13) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7c2f68-a4df-4f54-8efe-087ebb274f11")
+	)
+	(wire
+		(pts
 			(xy 53.34 99.06) (xy 63.5 99.06)
 		)
 		(stroke
@@ -2635,6 +2675,16 @@
 			(type default)
 		)
 		(uuid "7c0a2d2a-3b85-4e88-8cbb-84a340f25555")
+	)
+	(wire
+		(pts
+			(xy 128.27 148.59) (xy 128.27 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d079601-9923-4456-8e67-842cae13def0")
 	)
 	(wire
 		(pts
@@ -2778,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 143.51) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd63c6c7-1f0e-484e-8ca2-4dbedf351ec0")
+	)
+	(wire
+		(pts
 			(xy 52.07 33.02) (xy 52.07 41.91)
 		)
 		(stroke
@@ -2839,6 +2899,18 @@
 		(uuid 028fd8fb-c8d9-4d5c-a17e-709b14e35529)
 	)
 	(rectangle
+		(start 95.25 127)
+		(end 148.59 168.91)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c7cf605-0379-438a-838e-1a36c0fbbb67)
+	)
+	(rectangle
 		(start 96.52 77.47)
 		(end 179.07 119.38)
 		(stroke
@@ -2885,6 +2957,17 @@
 			(type none)
 		)
 		(uuid 9c47fefb-a678-4c05-a7dc-1c9eca5d2b4a)
+	)
+	(text "SOIL MOISTURE"
+		(exclude_from_sim no)
+		(at 98.298 132.08 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "34eb65a0-c3b8-4638-bcff-9e7b28cf509b")
 	)
 	(text "BME280"
 		(exclude_from_sim no)
@@ -2942,6 +3025,18 @@
 		)
 		(uuid "0b956347-b9f2-4f6a-a24e-eaef397780b2")
 	)
+	(hierarchical_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 113.03 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40184bb3-6cb1-4f15-9511-95b3c9a4ebee")
+	)
 	(hierarchical_label "WINDDIR_OUT"
 		(shape output)
 		(at 59.69 40.64 0)
@@ -2989,6 +3084,18 @@
 			(justify left)
 		)
 		(uuid "801284fc-2988-4222-a7c7-737a613bb53c")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape input)
+		(at 113.03 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bc917ee-bb51-43e0-b29c-dc95ad8b9138")
 	)
 	(hierarchical_label "WINDSPEED_TGR"
 		(shape output)
@@ -3048,23 +3155,23 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc715c9-68bf-4e79-a340-a8e0f5c097dc")
-		(property "Reference" "J7"
-			(at 119.38 34.29 90)
+		(property "Reference" "J8"
+			(at 119.38 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DS18B20"
-			(at 119.38 36.83 90)
+		(property "Value" "SOIL_TEMP"
+			(at 119.38 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "WeatherStation:STEMMA_LARGE_3pin"
+		(property "Footprint" "WeatherStation:Stemma_Vertical_Large"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -3103,7 +3210,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3119,7 +3226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203848e5-d171-4908-bd9a-4380ec1025a3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 119.38 46.99 0)
 			(effects
 				(font
@@ -3169,7 +3276,74 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR024")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 114.3 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a22843-b010-454c-9f42-e16ba1f83a0b")
+		(property "Reference" "#PWR025"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b3e087-680f-442a-9d4e-5e3556bdbc2f")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26c89447-086e-490d-b383-b692edfbcab8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 168.91 91.44 0)
 			(effects
 				(font
@@ -3234,7 +3408,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a096647-dd01-49a0-a360-464411c26c3a")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 55.88 93.345 0)
 			(effects
 				(font
@@ -3304,7 +3478,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32567b25-9ae4-4bef-b059-e2e8bef97315")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -3370,7 +3544,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3387,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ec104c-ef3c-4927-8c72-a5578c389984")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -3437,7 +3611,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3453,7 +3627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d46d203-0fd4-4d08-801e-fdcf715eff52")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -3503,7 +3677,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f552867-4d60-4a12-b679-722488458dae")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -3569,7 +3743,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Value" "RJ11"
+		(property "Value" "WIND_SENSOR"
 			(at 36.83 60.96 0)
 			(effects
 				(font
@@ -3670,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WeatherStation:CONN6_5555165-1_TEC"
+		(property "Footprint" "WeatherStation:RJ11_SMD"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -3736,7 +3910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8670f9d5-6785-4e35-9dbc-b4a7cc5d25cb")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -3786,7 +3960,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3802,7 +3976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "869cf7ff-c306-4933-aa78-6e7593d7de74")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 54.61 45.085 0)
 			(effects
 				(font
@@ -3856,7 +4030,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4012,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a22c9c1a-a899-481c-acae-933b6f134252")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -4062,7 +4236,80 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR023")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 106.68 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aab90bbf-0afe-4503-848a-0aa2d3756df9")
+		(property "Reference" "J7"
+			(at 103.124 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SOIL_MOISTURE"
+			(at 105.156 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WeatherStation:Stemma_Vertical_Large"
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d4dd9e4-560a-4a85-87b1-2d94d4cf9578")
+		)
+		(pin "2"
+			(uuid "935f1d8d-fd8b-49d2-8a7c-18236069c23a")
+		)
+		(pin "3"
+			(uuid "a9d17087-9a14-4353-94ee-5c29c4b93c72")
+		)
+		(pin "4"
+			(uuid "15288f43-c844-40b0-9a6b-a4954cab1c56")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4078,7 +4325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abaf58d4-7961-4cd3-8b63-b1806215b077")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -4128,7 +4375,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4142,25 +4389,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6d2d420-000b-4eea-8816-61caea071d47")
 		(property "Reference" "J4"
-			(at 33.02 147.32 90)
+			(at 33.274 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "STEMMA"
-			(at 35.56 147.32 90)
+		(property "Value" "BME280"
+			(at 35.306 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "WeatherStation:STEMMA_SMALL"
+		(property "Footprint" "WeatherStation:StemmaQT_Vertical"
 			(at 36.83 148.59 0)
 			(effects
 				(font
@@ -4226,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Value" "APDS_LightSensor"
+		(property "Value" "LIGHT_SENSOR"
 			(at 121.92 83.82 0)
 			(effects
 				(font
@@ -4316,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be29b90e-dbed-4b34-b5cd-29e013fbbdc2")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 46.99 36.195 0)
 			(effects
 				(font
@@ -4370,7 +4616,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4386,7 +4632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c838046e-9424-4bea-8caf-8c902aa6b422")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 147.32 90.1699 0)
 			(effects
 				(font
@@ -4440,7 +4686,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe8bf68-eba5-4021-a2c2-a0cb474c4efb")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 44.45 161.29 0)
 			(effects
 				(font
@@ -4507,7 +4753,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4522,7 +4768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf65856-2bd1-43c9-a309-b21d143e3ea5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -4572,7 +4818,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8c88d2f-65ed-4ad5-bf5d-8cc153de0647")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -4637,7 +4883,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Value" "RJ11"
+		(property "Value" "RAIN_SENSOR"
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -4668,7 +4914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WeatherStation:CONN6_5555165-1_TEC"
+		(property "Footprint" "WeatherStation:RJ11_SMD"
 			(at 57.15 111.76 0)
 			(effects
 				(font
@@ -4725,6 +4971,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8096773-22ce-4a9e-ad6c-bbaec82b80e3")
+		(property "Reference" "#PWR027"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50393a7-ae24-4bd1-946e-e14495d4fec7")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 49.53 270)
 		(unit 1)
@@ -4733,7 +5045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebf1ea0f-9d11-475b-8faf-ef3cfa1acd59")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 123.19 44.196 90)
 			(effects
 				(font
@@ -4785,7 +5097,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4802,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf3b24e-a347-45a5-8283-5a06873ae355")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -4852,7 +5164,7 @@
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

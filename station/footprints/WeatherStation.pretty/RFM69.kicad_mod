@@ -365,4 +365,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "7b2fb135-5d14-4da0-8aad-9ef9a29697fa")
 	)
+	(model "C:/Users/whati/Documents/pico-weather-station-hardware/receiver/hardware/components/RFM69/COM-13909.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
