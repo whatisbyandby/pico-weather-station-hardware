@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.4958,
-          "width": 8.7884
+          "height": 2.9972,
+          "width": 1.6002
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -513,6 +513,10 @@
       {
         "netclass": "Power",
         "pattern": "Load-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },
@@ -521,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
