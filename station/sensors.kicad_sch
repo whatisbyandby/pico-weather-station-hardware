@@ -5,207 +5,6 @@
 	(uuid "09313e21-038a-49ec-bb2b-713cf4f66585")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -2249,10 +2048,10 @@
 		(uuid "22d5ebba-a92c-45f3-8ff9-3790b53f69be")
 	)
 	(junction
-		(at 119.38 49.53)
+		(at 124.46 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33585ff7-431d-4d61-a94f-ecf8a9f5af96")
+		(uuid "6fc28688-64dd-4b6b-95ee-4de14a474eff")
 	)
 	(junction
 		(at 52.07 58.42)
@@ -2261,16 +2060,16 @@
 		(uuid "751a0dc2-bd60-4dc5-a45a-224e4129c732")
 	)
 	(junction
+		(at 124.46 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b05399-a953-49e6-bebd-5bb1c16d4b36")
+	)
+	(junction
 		(at 48.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "917d2706-84d6-4676-be3e-fdeb92b8e36b")
-	)
-	(junction
-		(at 127 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8248c3e-0dd1-439b-8f7c-c0eb1123dc70")
 	)
 	(junction
 		(at 144.78 93.98)
@@ -2323,8 +2122,22 @@
 		(uuid "93a311b6-b930-4a4e-a3cf-de55aa3784a5")
 	)
 	(no_connect
+		(at 113.03 49.53)
+		(uuid "e41aef58-c256-4082-92cb-cef492d48132")
+	)
+	(no_connect
 		(at 45.72 96.52)
 		(uuid "e436dab5-fc2a-4fb2-9c97-163356ad438c")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ac6284-85a9-49ea-b0bf-87ddc908f8df")
 	)
 	(wire
 		(pts
@@ -2358,16 +2171,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 146.05) (xy 113.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf8a49c-595a-49e4-86c0-f322f743363b")
-	)
-	(wire
-		(pts
 			(xy 144.78 93.98) (xy 149.86 93.98)
 		)
 		(stroke
@@ -2375,36 +2178,6 @@
 			(type default)
 		)
 		(uuid "0e20670c-56ae-40c6-8acf-9edb4db6373b")
-	)
-	(wire
-		(pts
-			(xy 121.92 43.18) (xy 127 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b4b049-0170-4356-a233-58c82f385a7c")
-	)
-	(wire
-		(pts
-			(xy 119.38 43.18) (xy 119.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1510bd8f-dae3-4147-954e-2b21f3e69b4e")
-	)
-	(wire
-		(pts
-			(xy 114.3 151.13) (xy 114.3 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15819fc9-8ba2-4b79-8736-9484e373351a")
 	)
 	(wire
 		(pts
@@ -2418,23 +2191,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 114.3 43.18)
+			(xy 111.76 151.13) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17e33738-edcf-4670-b720-cd6785dbfaf9")
-	)
-	(wire
-		(pts
-			(xy 127 57.15) (xy 129.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac3553b-a803-4a8f-9613-c137d6f5914b")
+		(uuid "1d72e330-4ffa-443c-b500-9f6d82869747")
 	)
 	(wire
 		(pts
@@ -2468,13 +2231,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 49.53) (xy 119.38 50.8)
+			(xy 121.92 39.37) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e43e520-32b9-4fd2-8c82-8cefbeb7a58d")
+		(uuid "31c71928-ec6a-4888-bd2e-c0a3dc4851c1")
 	)
 	(wire
 		(pts
@@ -2488,13 +2251,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 127 49.53)
+			(xy 128.27 146.05) (xy 128.27 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45b06917-57c1-4392-9bfb-c426c6c29b28")
+		(uuid "3d20981a-a171-46cc-8e2a-1e6c15c56208")
 	)
 	(wire
 		(pts
@@ -2505,16 +2268,6 @@
 			(type default)
 		)
 		(uuid "48400e62-a7a4-497e-90b8-60327e79b1df")
-	)
-	(wire
-		(pts
-			(xy 127 49.53) (xy 127 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d3491c-f728-4890-92ca-59726a009f0b")
 	)
 	(wire
 		(pts
@@ -2538,13 +2291,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 148.59) (xy 128.27 148.59)
+			(xy 111.76 146.05) (xy 128.27 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cda560f-89ad-4fb1-b7df-bce0661818fd")
+		(uuid "585a63b3-0e57-4536-abd1-f2350aeb85d8")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f11970e-4d77-49fd-bf6c-051cf1bb8206")
 	)
 	(wire
 		(pts
@@ -2608,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 143.51) (xy 130.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b8bca5-55d1-477a-85cb-2fba0207ac58")
+	)
+	(wire
+		(pts
 			(xy 46.99 58.42) (xy 52.07 58.42)
 		)
 		(stroke
@@ -2638,16 +2411,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 151.13) (xy 114.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7c2f68-a4df-4f54-8efe-087ebb274f11")
-	)
-	(wire
-		(pts
 			(xy 53.34 99.06) (xy 63.5 99.06)
 		)
 		(stroke
@@ -2668,13 +2431,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 148.59) (xy 128.27 142.24)
+			(xy 113.03 41.91) (xy 115.57 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d079601-9923-4456-8e67-842cae13def0")
+		(uuid "7d4364ca-ca70-435f-927e-c6fb6e65bbf5")
 	)
 	(wire
 		(pts
@@ -2685,6 +2448,16 @@
 			(type default)
 		)
 		(uuid "81eefae4-ba9f-4ca5-aa8a-c3a4dadbde56")
+	)
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d5c301-fa18-4338-bdee-42a762405add")
 	)
 	(wire
 		(pts
@@ -2715,6 +2488,36 @@
 			(type default)
 		)
 		(uuid "9639a10f-4fe4-400a-8641-09628d3793a2")
+	)
+	(wire
+		(pts
+			(xy 121.92 44.45) (xy 121.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac9d78d-31a7-46dd-aeeb-3573b9c7dc16")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab21e796-7294-4711-b4c4-12622f22e727")
+	)
+	(wire
+		(pts
+			(xy 111.76 143.51) (xy 130.81 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd3fbad-1c37-4cb4-b2cd-62aa45b261cd")
 	)
 	(wire
 		(pts
@@ -2788,13 +2591,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 116.84 43.18)
+			(xy 124.46 38.1) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d892df2c-239f-42cf-ab51-ade9bb59d988")
+		(uuid "d9997e70-64ea-4625-bf09-19b1eabbe7de")
 	)
 	(wire
 		(pts
@@ -2805,16 +2608,6 @@
 			(type default)
 		)
 		(uuid "dba5e0eb-f82f-467b-9370-8f08198f22e8")
-	)
-	(wire
-		(pts
-			(xy 111.76 143.51) (xy 113.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd63c6c7-1f0e-484e-8ca2-4dbedf351ec0")
 	)
 	(wire
 		(pts
@@ -2845,6 +2638,16 @@
 			(type default)
 		)
 		(uuid "f04dcf51-23f2-4df2-9e8b-941a6c4c6e79")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f495eb99-9bd4-4ccb-b23b-f8c294ffbbe9")
 	)
 	(wire
 		(pts
@@ -3007,7 +2810,7 @@
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
-		(at 113.03 146.05 0)
+		(at 113.03 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3043,7 +2846,7 @@
 	)
 	(hierarchical_label "ONE_WIRE"
 		(shape bidirectional)
-		(at 129.54 57.15 0)
+		(at 132.08 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3051,7 +2854,7 @@
 			)
 			(justify left)
 		)
-		(uuid "80101af7-1289-4eac-9d0e-970f8a344634")
+		(uuid "7b3271dc-8922-414b-9fe2-1666c5007689")
 	)
 	(hierarchical_label "RAIN_COUNT"
 		(shape output)
@@ -3067,7 +2870,7 @@
 	)
 	(hierarchical_label "I2C0_SCL"
 		(shape input)
-		(at 113.03 143.51 0)
+		(at 113.03 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3126,33 +2929,35 @@
 		(uuid "f649f0ca-e845-41ac-9a3f-ff58bcffd427")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 119.38 38.1 270)
+		(lib_id "Device:R")
+		(at 124.46 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bc715c9-68bf-4e79-a340-a8e0f5c097dc")
-		(property "Reference" "J8"
-			(at 119.38 33.02 90)
+		(uuid "21d2a496-2014-47de-a783-e5eab35f48a9")
+		(property "Reference" "R8"
+			(at 127 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SOIL_TEMP"
-			(at 119.38 35.56 90)
+		(property "Value" "4.7k"
+			(at 127 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "WeatherStation:Stemma_Vertical_Large"
-			(at 119.38 38.1 0)
+		(property "Footprint" ""
+			(at 122.682 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 38.1 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,8 +2974,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 38.1 0)
+		(property "Description" "Resistor"
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,84 +2984,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4610228-e901-4fa2-99fc-a685eb6bb13c")
+			(uuid "33969d0d-7f7a-45d9-be34-3c1e34e8facc")
 		)
 		(pin "2"
-			(uuid "af65101c-1016-47b7-9d9a-5ba11faa1dd4")
-		)
-		(pin "3"
-			(uuid "8c49d8dd-29a0-43bf-ab7a-00e26fdbb1df")
+			(uuid "282e88c0-00b5-4982-b5a7-3db3d68cd9c1")
 		)
 		(instances
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 119.38 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "203848e5-d171-4908-bd9a-4380ec1025a3")
-		(property "Reference" "#PWR026"
-			(at 119.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe6025d9-8e6b-4821-ba54-9b01463ef7be")
-		)
-		(instances
-			(project "weather_station_pico"
-				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR026")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3265,7 +3001,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 114.3 154.94 0)
+		(at 130.81 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3274,7 +3010,7 @@
 		(fields_autoplaced yes)
 		(uuid "26a22843-b010-454c-9f42-e16ba1f83a0b")
 		(property "Reference" "#PWR025"
-			(at 114.3 161.29 0)
+			(at 130.81 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 160.02 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 154.94 0)
+			(at 130.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 154.94 0)
+			(at 130.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 154.94 0)
+			(at 130.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,6 +3261,73 @@
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 115.57 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3410c1b1-6c2d-429e-ae7f-564bdbf6d1e2")
+		(property "Reference" "#PWR026"
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aed76a7d-ac36-4db4-8a8d-3690299ef2da")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4157,72 +3960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a22c9c1a-a899-481c-acae-933b6f134252")
-		(property "Reference" "#PWR024"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee34a39b-78e5-46b8-99ad-e5531383eab4")
-		)
-		(instances
-			(project "weather_station_pico"
-				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 106.68 148.59 180)
 		(unit 1)
@@ -4805,6 +4542,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 107.95 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3987111-e58c-4880-b9b7-b5b7700396b7")
+		(property "Reference" "J8"
+			(at 104.394 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SOIL_MOISTURE"
+			(at 106.426 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WeatherStation:Stemma_Vertical_Large"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2cba854-a755-45d5-9537-7ccd01b0a978")
+		)
+		(pin "2"
+			(uuid "2d3b0828-5710-4a70-a3f7-c9eba228b679")
+		)
+		(pin "3"
+			(uuid "cf1c2dd1-78a7-4e1e-b9fc-0784b206d6f7")
+		)
+		(pin "4"
+			(uuid "d5285eda-d058-4342-87ad-6a39ad7308a7")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 144.78 86.36 0)
 		(unit 1)
@@ -5017,73 +4827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 123.19 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebf1ea0f-9d11-475b-8faf-ef3cfa1acd59")
-		(property "Reference" "R8"
-			(at 123.19 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 123.19 46.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 123.19 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eacdff66-ed1e-4501-970d-6c7106ef5a79")
-		)
-		(pin "2"
-			(uuid "0810b650-be29-4f61-b584-33207a08a561")
-		)
-		(instances
-			(project "weather_station_pico"
-				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 168.91 97.79 0)
@@ -5145,6 +4888,72 @@
 			(project "weather_station_pico"
 				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 124.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f148b668-b8e0-4d07-8c2c-c77fd7074f51")
+		(property "Reference" "#PWR024"
+			(at 124.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8386dd53-adf2-4cd9-a0c6-83644c53aefa")
+		)
+		(instances
+			(project "weather_station_pico"
+				(path "/8f1f45aa-e764-4c95-a223-c466cf9a95bf/7a04e3d1-638a-4686-bfce-e4e7db2cefc8"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
