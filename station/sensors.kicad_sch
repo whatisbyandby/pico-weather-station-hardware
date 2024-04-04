@@ -2267,16 +2267,16 @@
 		(uuid "917d2706-84d6-4676-be3e-fdeb92b8e36b")
 	)
 	(junction
-		(at 144.78 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cd8499c-88a5-4c71-91a1-14b513915ca0")
-	)
-	(junction
 		(at 127 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8248c3e-0dd1-439b-8f7c-c0eb1123dc70")
+	)
+	(junction
+		(at 144.78 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86172be-8aa1-4400-9e23-0d23aa0c7143")
 	)
 	(junction
 		(at 53.34 99.06)
@@ -2368,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 149.86 95.25)
+			(xy 144.78 93.98) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2485,16 +2485,6 @@
 			(type default)
 		)
 		(uuid "3aa88ae9-6784-40df-a13f-8126f587a297")
-	)
-	(wire
-		(pts
-			(xy 138.43 93.98) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dbe896-ec89-4789-bb3c-bf730964e1aa")
 	)
 	(wire
 		(pts
@@ -2728,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 138.43 93.98)
+			(xy 134.62 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2758,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 87.63)
+			(xy 135.89 86.36) (xy 135.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2795,16 +2785,6 @@
 			(type default)
 		)
 		(uuid "ca848443-5de3-4490-9cb3-2d2b52f37402")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceee02c1-fbf6-4835-a46e-e0ec56fd31b4")
 	)
 	(wire
 		(pts
@@ -3123,7 +3103,7 @@
 	)
 	(hierarchical_label "LIGHT_INTR"
 		(shape output)
-		(at 149.86 95.25 0)
+		(at 149.86 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4624,7 +4604,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 91.44 0)
+		(at 144.78 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4633,7 +4613,7 @@
 		(fields_autoplaced yes)
 		(uuid "c838046e-9424-4bea-8caf-8c902aa6b422")
 		(property "Reference" "R9"
-			(at 147.32 90.1699 0)
+			(at 147.32 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4622,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 147.32 92.7099 0)
+			(at 147.32 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4631,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 143.002 91.44 90)
+			(at 143.002 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 135.89 87.63 0)
+		(at 135.89 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4769,7 +4749,7 @@
 		(dnp no)
 		(uuid "ccf65856-2bd1-43c9-a309-b21d143e3ea5")
 		(property "Reference" "#PWR028"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4758,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 135.636 82.55 0)
+			(at 135.636 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 87.63 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 87.63 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 87.63 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4806,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 144.78 87.63 0)
+		(at 144.78 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4834,7 +4814,7 @@
 		(dnp no)
 		(uuid "d8c88d2f-65ed-4ad5-bf5d-8cc153de0647")
 		(property "Reference" "#PWR030"
-			(at 144.78 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4823,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 144.526 82.55 0)
+			(at 144.526 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 87.63 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 87.63 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 87.63 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
