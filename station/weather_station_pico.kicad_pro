@@ -538,7 +538,7 @@
       "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3d/weather_station_pico.step",
       "svg": "",
       "vrml": ""
     },
