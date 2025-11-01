@@ -109,6 +109,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -626,8 +627,13 @@
 		(pad "1" smd rect
 			(at -5 -2.250001 90)
 			(size 2.1082 1.397)
+<<<<<<< Updated upstream
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 50 "/RESET")
+=======
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
+>>>>>>> Stashed changes
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "863c880b-09e5-42e3-aeef-ce665e3e4c1b")
@@ -653,8 +659,13 @@
 		(pad "4" smd rect
 			(at 5 2.250001 90)
 			(size 2.1082 1.397)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
+=======
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 50 "/RESET")
+>>>>>>> Stashed changes
 			(pinfunction "4")
 			(pintype "unspecified")
 			(uuid "d5eb462b-a46e-4585-9668-0039ff0c52bb")
